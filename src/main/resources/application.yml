@@ -6,3 +6,7 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+security:
+  basic:
+    enabled: true             #开启基于HTTP basic的认证
+                              #登录的账号是user,密码是启动时打印出来的秘钥
